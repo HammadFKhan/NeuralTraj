@@ -31,8 +31,6 @@ function plot3D(seq, xspec, varargin)
   end
 
   f = figure;
-  pos = get(gcf, 'position');
-  set(f, 'position', [pos(1) pos(2) 1.3*pos(3) 1.3*pos(4)]);
   
   for n = 1:min(length(seq), nPlotMax)
     dat = seq(n).(xspec)(dimsToPlot,:);
