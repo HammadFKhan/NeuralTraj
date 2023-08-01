@@ -110,9 +110,8 @@ fprintf('\n');
 fprintf('Basic extraction and plotting of neural trajectories is complete.\n');
 fprintf('Press any key to start cross-validation...\n');
 fprintf('[Depending on the dataset, this can take many minutes to hours.]\n');
-pause;
 
-
+%%
 % ========================================================
 % 2) Full cross-validation to find:
 %  - optimal state dimensionality for all methods
